@@ -20,7 +20,7 @@ TCP/IP프로토콜을 이용해서 통신을 하는 응용프로그램이 데이
 
 ## 과정
 
-![Untitled](TCP%203%20way%20%20f1e7a/Untitled.png)
+![Untitled 1](https://user-images.githubusercontent.com/22907483/155548168-f341897e-118a-4501-8753-e41e35d553d7.png)
 
 1. 클라이언트가 서버한테 접속을 요청하는 **SYN** 패킷을 보냄 (sequence: x) → 이때 클라이언트는 SYN을 보내고 SYN/ACK응답을 기다리는 SYN_SENT 상태가 됨, 서버는 LISTEN
 2. 서버가 SYN(x)를 받고 클라이언트로 받았다는 신호인 **ACK**와 **SYN** flag가 설정된 패킷을 보냄 (sequence: y, ACK: x+1), 클라이언트가 다시 ACK로 응답하기를 기다림 → 이때 서버는 SYN_RECEIVED 상태가 됨, 클라이언트는 CLOSED
@@ -30,7 +30,7 @@ TCP/IP프로토콜을 이용해서 통신을 하는 응용프로그램이 데이
 
 # 4 way handshake : 연결 해제
 
-![Untitled](TCP%203%20way%20%20f1e7a/Untitled%201.png)
+![Untitled](https://user-images.githubusercontent.com/22907483/155548220-0fb5a7ef-1fa8-4a77-a715-938e6f34498e.png)
 
 - 3 way handshake로 연결을 성립한 후, 모든 통신이 끝나면 연결을 해제해야함
 
