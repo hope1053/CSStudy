@@ -1,10 +1,10 @@
 # UDP
 
-![TCP](UDP%2028ed9/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/22907483/155549259-d0100d61-5ea2-4bef-9744-119cb9fca044.png)
 
 TCP
 
-![UDP](UDP%2028ed9/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/22907483/155549272-22aa6c4e-8343-4c7e-b041-41fd70194c07.png)
 
 UDP
 
@@ -34,5 +34,4 @@ UDP
     - TCP와는 다르게 UDP는 중간에 패킷이 유실이나 변조가 되어도 재전송을 하지 않습니다.
 
 # UDP 헤더
-
-![Untitled](UDP%2028ed9/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/22907483/155549370-394d151c-a888-47c5-afee-cad25a676d9c.png)

@@ -10,14 +10,14 @@
 
 ## Stop and Wait
 
-![Untitled](TCP%20IP%20%E1%84%92%E1%85%B3%E1%84%85%205f4db/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/22907483/155548839-56fbe186-3d28-4422-9ccb-f53ad1a6613d.png)
 
 - 매번 전송한 패킷에 대해 확인 응답(ACK)를 받으면 다음 패킷을 전송하는 방법
 - 그러나 패킷을 하나씩 보내기 때문에 비효율적인 방법임
 
 ## Sliding Window
 
-![Untitled](TCP%20IP%20%E1%84%92%E1%85%B3%E1%84%85%205f4db/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/22907483/155548886-5ccb229c-c940-4b57-b3f1-b94dc24e93ca.png)
 
 - 수신 측에서 설정한 윈도우 크기만큼 송신 측에서 확인 응답(ACK) 없이 패킷을 전송할 수 있게 하여 데이터 흐름을 동적으로 조절하는 제어 기법
 - 이때 송신 버퍼의 범위는 수신 측의 여유 버퍼 공간을 반영하여 동적으로 바뀜
@@ -40,7 +40,7 @@
 
 ## AIMD*****(Additive Increse/Multicative Decrease)*****
 
-![Untitled](TCP%20IP%20%E1%84%92%E1%85%B3%E1%84%85%205f4db/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/22907483/155548942-cc70a922-1202-4269-9a25-900f929d0a0f.png)
 
 - 우리 말로 직역하면 합 증가/곱 감소 방식이다.
 - AIMD 방식은 처음에 패킷을 하나씩 보내고 문제 없이 도착하면 윈도우의 크기를 1씩 증가시켜가며 전송한다.
@@ -49,7 +49,7 @@
 
 ## *****Slow Start (느린 시작)*****
 
-![Untitled](TCP%20IP%20%E1%84%92%E1%85%B3%E1%84%85%205f4db/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/22907483/155549004-06a2682e-39d4-45c4-b584-b7699956cdee.png)
 
 - 위에서 이야기했듯이 AIMD 방식은 윈도우 크기를 선형적으로 증가시키기 때문에, 제대로된 속도가 나오기까지 시간이 오래 걸린다.
 - 반면, Slow Start는 윈도우의 크기를 1, 2, 4, 8, ...과 같이 지수적으로 증가시키다가 혼잡이 감지되면 윈도우 크기를 1로 줄이는 방식이다.
@@ -63,7 +63,7 @@
 
 ## *****빠른 재전송 (Fast Retransmit)*****
 
-![Untitled](TCP%20IP%20%E1%84%92%E1%85%B3%E1%84%85%205f4db/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/22907483/155549077-7ef6844c-0b89-4c38-bebd-65f57a13028b.png)
 
 - 패킷을 받는 수신자 입장에서는 세그먼트로 분할된 내용들이 순서대로 도착하지 않는 경우가 생길 수 있다
 - 이런 상황이 발생했을 때 수신 측에서는 순서대로 잘 도착한 마지막 패킷의 다음 순번을 ACK 패킷에 실어서 보낸다. 송신측에서는 순번이 중복된 것을 알 수 있음
