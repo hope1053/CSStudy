@@ -5,7 +5,7 @@
 Inter Process Communication
 프로세스 간의 통신 방법
 
-![Untitled](IPC(Inter%20%200081b/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/22907483/155550227-f40b181d-b9e5-4510-94f7-787c3b67a201.png)
 
 - Process들은 서로 독립돼있음
 - 각자 수행할 수도 있지만 프로그램들 사이에 정보를 교환함으로써 계산 속도를 증가시키거나 편의성을 향상시킬 수 있음
@@ -18,7 +18,7 @@ Inter Process Communication
 
 # IPC의 종류
 
-![Untitled](IPC(Inter%20%200081b/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/22907483/155550262-849a426e-dc6c-4bbb-a69f-590af9cb24ae.png)
 
 ## 1. 메세지 전달(Message Passing)
 
