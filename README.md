@@ -62,3 +62,5 @@
 - 시스템 콜(System Call)
 - PCB와 Context Switching
 - IPC(Inter Process Communication)
+
+## ✔️ 7주차: 운영체제(2)
