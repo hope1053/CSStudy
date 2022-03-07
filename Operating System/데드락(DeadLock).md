@@ -1,6 +1,6 @@
 ## ✔️ 데드락이란?
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a9d593c-bad9-4362-aca5-64e05cd3676a/Untitled.png)
+![12](https://user-images.githubusercontent.com/22907483/157033908-f95286a5-29a3-412b-a94b-7f8f269ad317.png)
 
 - 교착 상태
 - 둘 이상의 프로세스가 서로 다른 프로세스가 점유하고 있는 자원을 얻고 싶어서 기다릴 때 무한 대기에 빠지는 상황
@@ -66,7 +66,7 @@
 - unsafe state(불안정 상태)
     - 데드락 발생 **가능성**이 있는 상황
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6e39e3a-27fa-46eb-a01d-a83d64d5ec18/Untitled.png)
+        ![Untitled](https://user-images.githubusercontent.com/22907483/157033954-ee94f80d-35ea-4d75-a73f-eb0e0484cb80.png)
         
     - 데드락이 불안정 상태의 부분집합
 
