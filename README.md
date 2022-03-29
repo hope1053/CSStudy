@@ -74,3 +74,34 @@
 - 파일 시스템
 
 ## ✔️ 8주차: 소프트웨어 공학(1)
+- 클린코드 & 리팩토링
+- 클린코드 & 시큐어코딩
+- TDD(Test Driven Development)
+- 애자일(Agile)
+
+## ✔️ 9주차: 소프트웨어 공학(2)
+- 객체지향 프로그래밍(Object-Oriented Programming)
+- 함수형 프로그래밍(Functional Programming)
+- 데브옵스(DevOps)
+- 서드 파티(3rd Party)
+- 마이크로서비스 아키텍처(MSA)
+
+## ✔️ 10주차: 알고리즘(1)
+- 거품 정렬(Bubble Sort)
+- 선택 정렬(Selection Sort)
+- 삽입 정렬(Insertion Sort)
+- 퀵 정렬(Quick Sort)
+- 병합 정렬(Merge Sort)
+- 힙 정렬(Heap Sort)
+- 기수 정렬(Radix Sort)
+- 계수 정렬(Count Sort)
+
+## ✔️ 11주차: 알고리즘(2)
+- 이분 탐색(Binary Search)
+- 해시 테이블 구현
+- DFS & BFS
+- 최장 증가 수열(LIS)
+- 최소 공통 조상(LCA)
+- 동적 계획법(Dynamic Prgramming)
+- 다익스트라(Dijkstra) 알고리즘
+- 비트마스크(BitMask)
