@@ -1,5 +1,3 @@
-# 삽입 정렬(Insertion sort)
-
 # **삽입 정렬 (Insertion Sort)**
 
 손 안의 카드를 정렬하는 방법과 유사합니다.
