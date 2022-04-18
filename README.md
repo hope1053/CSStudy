@@ -1,6 +1,7 @@
 # 📚 CS 스터디
-- 기간: 2022.01.17 ~
-- 매주 정해진 주제에 대해 공부 및 정리 후 내용 공유
+- 참여자: [hyerin](https://github.com/hope1053), [hyosin Jang](https://github.com/hyosin-Jang)
+- 기간: 2022.01.17 ~ 2022.04.17
+- [신입 개발자 전공 지식 & 기술 면접 백과사전](https://github.com/gyoogle/tech-interview-for-developer)을 참고하여 매주 정해진 주제에 대해 공부 및 정리 후 내용 공유
 ## ✔️ 1주차: Git
 - Git 개념 & 용어 정리  
 - 브랜치 만들기  
@@ -105,3 +106,19 @@
 - 동적 계획법(Dynamic Prgramming)
 - 다익스트라(Dijkstra) 알고리즘
 - 비트마스크(BitMask)
+
+## ✔️ 12주차: 디자인 패턴 
+- 어댑터 패턴  
+- 싱글톤 패턴  
+- 탬플릿 메소드 패턴  
+- 팩토리 메소드 패턴  
+- 옵저버 패턴  
+- 스트레티지 패턴  
+- 컴포지트 패턴  
+- SOLID  
+
+## ✔️ 13주차: 웹
+- 브라우저 동작 방법  
+- 쿠키(Cookie) & 세션(Session)  
+- HTTP Status Code  
+- REST API  
